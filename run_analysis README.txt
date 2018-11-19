@@ -5,20 +5,19 @@ Libraries necessary for this code are dplyr and tidyr
 I downloaded and unzipped the UCI HAR data prior to script execution. 
 The script calls the necessary libraries and sets the working directory to the directory containing the UCI HAR Dataset folder. 
 Within the UCI HAR Dataset folder is the following (the files in bold are used in the run.analysis.R script):
-    README.txt Ð a test file that explains the UCL HAR experiments and data files contained within the UCL HAR Dataset folder
-	features_info.txt Ð a text file that explains the features data gathered in the experiment  
+    README.txt Ð a test file that explains the UCL HAR experiments and data files contained within the UCL HAR Dataset folder features_info.txt Ð a text file that explains the features data gathered in the experiment  
     features.txt Ð a text file that lists the features and their corresponding numbers in the X_test.txt and X_train.txt data files 
-        activity_labels.txt Ð a text file that lists the 6 activities performed by the test subjects and their corresponding numbers in         the X_test.txt and X_train.txt data files
-	test folder
+    activity_labels.txt Ð a text file that lists the 6 activities performed by the test subjects and their corresponding numbers in the X_test.txt and X_train.txt data files
+    test folder
         Inertial Signals folder Ð The raw data signals, this data was not used for this analysis
         subject_test.txt Ð a text file that lists the subjects who performed each of the trials (rows) in the X_test.txt dataset
-		X_test.txt Ð a text file that contains the unlabeled test data
-        y_test.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row)              of the X_test.txt dataset
-	train folder
+	X_test.txt Ð a text file that contains the unlabeled test data
+        y_test.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row) of the X_test.txt dataset
+    train folder
         Inertial Signals folder Ð The raw data signals, this data was not used for this analysis
         subject_train.txt Ð a text file that lists the subjects who performed each of the trials (rows) in the X_train.txt dataset
-		X_train.txt Ð a text file that contains the unlabeled training data
-        y_train.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row)             of the X_train.txt dataset
+	X_train.txt Ð a text file that contains the unlabeled training data
+        y_train.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row) of the X_train.txt dataset
 
 - Input data (test subjects) - 
 xtest is a table with 2947 rows, 561 columns, and 1,653,267 observations

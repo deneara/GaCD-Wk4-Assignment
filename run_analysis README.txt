@@ -11,12 +11,12 @@ Within the UCI HAR Dataset folder is the following (the files in bold are used i
     test folder
         Inertial Signals folder Ð The raw data signals, this data was not used for this analysis
         subject_test.txt Ð a text file that lists the subjects who performed each of the trials (rows) in the X_test.txt dataset
-	X_test.txt Ð a text file that contains the unlabeled test data
+	 X_test.txt Ð a text file that contains the unlabeled test data
         y_test.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row) of the X_test.txt dataset
     train folder
         Inertial Signals folder Ð The raw data signals, this data was not used for this analysis
         subject_train.txt Ð a text file that lists the subjects who performed each of the trials (rows) in the X_train.txt dataset
-	X_train.txt Ð a text file that contains the unlabeled training data
+	 X_train.txt Ð a text file that contains the unlabeled training data
         y_train.txt Ð a text file that contains numbers corresponding to the activities the subjects performed in each experiment (row) of the X_train.txt dataset
 
 - Input data (test subjects) - 

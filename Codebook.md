@@ -22,15 +22,15 @@ The averages of the means and standard deviations for each of the 3-axial signal
 
 * tBodyAcc.mean.(X, Y, Z) – the average of the time domain body accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
-*tBodyAcc.std.(X, Y, Z) – the average of the time domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
+* tBodyAcc.std.(X, Y, Z) – the average of the time domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
 * tGravityAcc.mean.(X, Y, Z) – the average of the time domain gravity accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
 * tGravityAcc.std.(X, Y, Z) – the average of the time domain gravity accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
-*tBodyAccJerk.mean.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
+* tBodyAccJerk.mean.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
-*tBodyAccJerk.std.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
+* tBodyAccJerk.std.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
 * tBodyGyro.mean.(X, Y, Z) – the average of the time domain body gyroscope signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 

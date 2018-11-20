@@ -10,7 +10,7 @@ The tidy_data_final dataset is a summary of the UCI Human Activity Recognition (
 
 From the UCI HAR data, the test and training data sets were merged and the means and standard deviations (stds) for each of the 17 features were extracted for each experimental run. Since there were several measurements for each test subject in each position, the average means and stds were calculated and these are measurements contained within the tidy_data_final. Please see run.analysis.R script and corresponding README file for more information. 
 
-# The tidy_data_final dataset includes the following variables:
+**The tidy_data_final dataset includes the following variables:**
 
 **Columns 1-3**
 * Date.Type – Test or Training Subjects
@@ -21,72 +21,39 @@ From the UCI HAR data, the test and training data sets were merged and the means
 The averages of the means and standard deviations for each of the 3-axial signal directions (X, Y, Z), of the 17 UCI HAR features (descriptions of features and their calculations are quoted from the UCI HAR info files below). 
 
 * tBodyAcc.mean.(X, Y, Z) – the average of the time domain body accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAcc.std.(X, Y, Z) – the average of the time domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tGravityAcc.mean.(X, Y, Z) – the average of the time domain gravity accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tGravityAcc.std.(X, Y, Z) – the average of the time domain gravity accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccJerk.mean.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccJerk.std.(X, Y, Z) – the average of the time domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyro.mean.(X, Y, Z) – the average of the time domain body gyroscope signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyro.std.(X, Y, Z) – the average of the time domain body gyroscope signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroJerk.mean.(X, Y, Z) – the average of the time domain body gyroscope Jerk signal (derived from the angular velocity) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroJerk.std.(X, Y, Z) – the average of the time domain body gyroscope Jerk signal (derived from the angular velocity) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccMag.mean.(X, Y, Z) – the average of the magnitude time domain body accelerometer signal means for eacsh subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccMag.std.(X, Y, Z) – the average of the magnitude time domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tGravityAccMag.mean.(X, Y, Z) – the average of the magnitude time domain gravity accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tGravityAccMag.std.(X, Y, Z) – the average of the magnitude time domain gravity accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccJerkMag.mean.(X, Y, Z) – the average of the magnitude time domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyAccJerkMag.std.(X, Y, Z) – the average of the magnitude time domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroMag.mean.(X, Y, Z) – the average of the magnitude time domain body gyroscope signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroMag std.(X, Y, Z) – the average of the magnitude time domain body gyroscope signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroJerkMag.mean.(X, Y, Z) – the average of the time domain body gyroscope Jerk signal (derived from the angular velocity) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * tBodyGyroJerkMag.std.(X, Y, Z) – the average of the time domain body gyroscope Jerk signal (derived from the angular velocity) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAcc.mean.(X, Y, Z) – the average of the frequency domain body accelerometer signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 -XYZ
-
 * fBodyAcc.std.(X, Y, Z) – the average of the frequency domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction -XYZ
-
 * fBodyAccJerk.mean.(X, Y, Z) – the average of the frequency domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAccJerk.std.(X, Y, Z) – the average of the frequency domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyro.mean.(X, Y, Z) – the average of the frequency domain body gyroscope signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyro.std.(X, Y, Z) – the average of the frequency domain body gyroscope signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAccMag.mean.(X, Y, Z) – the average of the magnitude frequency domain body accelerometer signal means for eacsh subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAccMag.std.(X, Y, Z) – the average of the magnitude frequency domain body accelerometer signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAccJerkMag.mean.(X, Y, Z) – the average of the magnitude frequency domain body accelerometer Jerk signal (derived from the linear acceleration) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyAccJerkMag.std.(X, Y, Z) – the average of the magnitude frequency domain body accelerometer Jerk signal (derived from the linear acceleration) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyroMag.mean.(X, Y, Z) – the average of the magnitude frequency domain body gyroscope signal means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyroMag std.(X, Y, Z) – the average of the magnitude frequency domain body gyroscope signal standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyroJerkMag.mean.(X, Y, Z) – the average of the frequency domain body gyroscope Jerk signal (derived from the angular velocity) means for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
-
 * fBodyGyroJerkMag.std.(X, Y, Z) – the average of the frequency domain body gyroscope Jerk signal (derived from the angular velocity) standards of deviation for each subject performing the test in each position, in the X, Y, and Z 3-axial signal direction
 
 
